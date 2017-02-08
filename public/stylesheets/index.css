@@ -1,0 +1,42 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.cards {
+  height:200px;
+  width: 200px;
+  border: 1px solid black;
+  font-family: 'Comfortaa', cursive;  
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.card-0 {
+  background:url('../images/grand_teton.JPG') no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.card-1 {
+  background:url('../images/grand_teton.JPG') no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.card-text {
+  text-align: right;
+}
+.card-name {
+  font-size: 23px;
+  margin-right: 4px;
+
+}
+.card-location {
+  font-size: 14px;
+  margin-right: 5px;
+  padding-bottom: 5px;
+
+}

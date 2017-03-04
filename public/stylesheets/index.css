@@ -6,19 +6,28 @@
 .card-container {
   display: flex;
   justify-content: space-around;
+  padding-top: 150px;
 }
 
 .cards {
-  height:200px;
-  width: 200px;
-  border: 1px solid black;
+  height:250px;
+  width: 250px;
   font-family: 'Comfortaa', cursive;  
-  color: white;
+  color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: flex-end;
 }
+
+.click {
+  top: 190px;
+  height:250px;
+  width: 250px;
+  opacity: 0;
+}
+
+
 
 .card-0 {
   background:url('../images/grand_teton.JPG') no-repeat;
@@ -69,16 +78,15 @@
 }
 
 .card-name {
-  text-align: right;
+  text-align: center;
   font-size: 23px;
-  margin-right: 4px;
+  padding-top: 25px;
 
 }
 .card-location {
-  text-align: right;
+  text-align: center;
 
   font-size: 14px;
-  margin-right: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 60px;
 
 }

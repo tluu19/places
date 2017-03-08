@@ -1,42 +1,92 @@
+.mdl-layout__drawer {
+  margin-right: -50px;
+  opacity: 0.5;
+}
+
 .card-container {
   display: flex;
   justify-content: space-around;
+  padding-top: 150px;
 }
+
 .cards {
-  height:200px;
-  width: 200px;
-  border: 1px solid black;
+  height:250px;
+  width: 250px;
   font-family: 'Comfortaa', cursive;  
-  color: white;
+  color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
+.click {
+  top: 190px;
+  height:250px;
+  width: 250px;
+  opacity: 0;
+}
+
+
+
 .card-0 {
   background:url('../images/grand_teton.JPG') no-repeat;
   background-size: cover;
   position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 
 }
+
 .card-1 {
-  background:url('../images/grand_teton.JPG') no-repeat;
+  background:url('../images/glacierpoint.JPG') no-repeat;
   background-size: cover;
   position: relative;
+  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+}
+
+.card-2 {
+  background:url('../images/diamondhead.JPG') no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+.card-3 {
+  background:url('../images/suburbia1.JPG') no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+}
+
+.card-text {
+  bottom: 10px;
+  margin: 30px auto;
+  width: inherit;
+}
+
+.btn-flat {
+  opacity: 0.2;
+  color: black;
+  height:200px;
+  width: 200px;
+  text-align: center;
 
 }
-.card-text {
-  text-align: right;
+
+.btn-flat:hover {
+  opacity: 0.9;
 }
+
 .card-name {
+  text-align: center;
   font-size: 23px;
-  margin-right: 4px;
+  padding-top: 25px;
 
 }
 .card-location {
+  text-align: center;
+
   font-size: 14px;
-  margin-right: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 60px;
 
 }
